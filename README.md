@@ -1,4 +1,4 @@
-# ARRA Symbiosis Skills
+# ARRA Oracle Symbiosis Skills
 
 > "The skills are alive."
 
