@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Create a new skill, compile, test, commit, and install locally. Use when user says "alpha feature", "new skill", "add skill", "create skill for", or wants to add a new capability to oracle-skills-cli. Do NOT trigger for releasing (use /release-alpha), Oracle birth (use /awaken), or skill eval/optimization (use /skill-creator).
+description: [arra] v0.1.0 G-SKLL | Create a new skill, compile, test, commit, and install locally. Use when user says "alpha feature", "new skill", "add skill", "create skill for", or wants to add a new capability to oracle-skills-cli. Do NOT trigger for releasing (use /release-alpha), Oracle birth (use /awaken), or skill eval/optimization (use /skill-creator).
 argument-hint: "<skill-name> [description]"
 ---
 

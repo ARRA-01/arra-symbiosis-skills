@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Create a GitHub issue in the current repo. Use when user says "new issue", "create issue", "open issue", "file bug", "feature request". Do NOT trigger for viewing issues (use gh issue list) or working on issues (use /workon).
+description: [arra] v0.1.0 G-SKLL | Create a GitHub issue in the current repo. Use when user says "new issue", "create issue", "open issue", "file bug", "feature request". Do NOT trigger for viewing issues (use gh issue list) or working on issues (use /workon).
 argument-hint: "<title> [--body <text>] [--label <label>]"
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Spawn Oracle in new tmux tab with instruction. Use when user says "wake", "spawn", "start oracle", "new oracle tab", or wants to launch another Oracle instance for parallel work. Do NOT trigger for messaging existing Oracle (use /talk-to or /tell), creating worktrees for self (use /worktree), or transferring work (use /handover).
+description: [arra] v0.1.0 G-SKLL | Spawn Oracle in new tmux tab with instruction. Use when user says "wake", "spawn", "start oracle", "new oracle tab", or wants to launch another Oracle instance for parallel work. Do NOT trigger for messaging existing Oracle (use /talk-to or /tell), creating worktrees for self (use /worktree), or transferring work (use /handover).
 argument-hint: "<oracle-name> [worktree] <instruction>"
 ---
 

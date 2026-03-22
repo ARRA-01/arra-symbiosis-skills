@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Manage Oracle skills — profiles, features, enable/disable. Use when user says "oracle", "profile", "install skill", "remove skill", "switch profile", "enable", "disable".
+description: [arra] v0.1.0 G-SKLL | Manage Oracle skills — profiles, features, enable/disable. Use when user says "oracle", "profile", "install skill", "remove skill", "switch profile", "enable", "disable".
 argument-hint: "<profiles|install|uninstall|list>"
 ---
 

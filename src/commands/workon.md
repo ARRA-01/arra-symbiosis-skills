@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Work on an issue OR resume a killed worktree. Use when user says "workon", "work on", "implement issue", "resume", "bring back", "restore worktree".
+description: [arra] v0.1.0 G-SKLL | Work on an issue OR resume a killed worktree. Use when user says "workon", "work on", "implement issue", "resume", "bring back", "restore worktree".
 ---
 
 # /workon

@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Git worktree for parallel work. Use when user says "worktree", "parallel work", "new agent", "start parallel".
+description: [arra] v0.1.0 G-SKLL | Git worktree for parallel work. Use when user says "worktree", "parallel work", "new agent", "start parallel".
 argument-hint: "new <name> | list | remove <name>"
 ---
 

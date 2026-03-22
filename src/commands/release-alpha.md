@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Bump version, compile, test, commit, tag, and create GitHub alpha pre-release. Use when user says "release alpha", "alpha release", "new alpha", "tag alpha". Do NOT trigger for stable releases or version bumps without tagging.
+description: [arra] v0.1.0 G-SKLL | Bump version, compile, test, commit, tag, and create GitHub alpha pre-release. Use when user says "release alpha", "alpha release", "new alpha", "tag alpha". Do NOT trigger for stable releases or version bumps without tagging.
 argument-hint: "[--patch | --minor | --major]"
 ---
 

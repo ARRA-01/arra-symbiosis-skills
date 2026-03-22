@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Full anatomy scan of ONE session JSONL. Timeline, commits, gaps, emotional arc, energy map, stats. 4 parallel subagents. Use when user says "xray", "xray session", "session anatomy", "what happened in session X".
+description: [arra] v0.1.0 G-SKLL | Full anatomy scan of ONE session JSONL. Timeline, commits, gaps, emotional arc, energy map, stats. 4 parallel subagents. Use when user says "xray", "xray session", "session anatomy", "what happened in session X".
 argument-hint: "[session-id]"
 ---
 

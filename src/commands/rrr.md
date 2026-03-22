@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Create session retrospective with AI diary and lessons learned. Use when user says "rrr", "retrospective", "wrap up session", "session summary", or at end of work session.
+description: [arra] v0.1.0 G-SKLL | Create session retrospective with AI diary and lessons learned. Use when user says "rrr", "retrospective", "wrap up session", "session summary", or at end of work session.
 argument-hint: "[--detail | --dig | --deep]"
 ---
 

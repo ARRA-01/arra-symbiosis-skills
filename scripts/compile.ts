@@ -40,8 +40,9 @@ async function compile() {
         const hintMatch = frontmatter.match(/argument-hint:\s*"(.+)"$/m);
         const argumentHint = hintMatch ? hintMatch[1] : null;
 
-        // Inject version with G-SKLL tag
-        const description = `v${pkg.version} G-SKLL | ${rawDescription}`;
+        // Inject version with skill tag from package.json
+        const skillTag = (pkg as any).skillTag || '[arra]';
+        const description = `${skillTag} v${pkg.version} G-SKLL | ${rawDescription}`;
 
         // Create stub command
         const hintLine = argumentHint ? `\nargument-hint: "${argumentHint}"` : '';

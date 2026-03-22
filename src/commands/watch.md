@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Learn from YouTube videos via Gemini transcription. Use when user says "watch", "transcribe youtube", "learn from video", or shares a YouTube URL to study.
+description: [arra] v0.1.0 G-SKLL | Learn from YouTube videos via Gemini transcription. Use when user says "watch", "transcribe youtube", "learn from video", or shares a YouTube URL to study.
 argument-hint: "<youtube-url>"
 ---
 

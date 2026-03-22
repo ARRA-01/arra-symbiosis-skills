@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | List open issues, PRs, and Pulse board in one view. Use when user says "list issues", "list prs", "show issues", "open prs", "what's open", "list pulse", "board". Do NOT trigger for creating issues (use /draft-issue), working on issues (use /workon), or session status (use /where-we-are).
+description: [arra] v0.1.0 G-SKLL | List open issues, PRs, and Pulse board in one view. Use when user says "list issues", "list prs", "show issues", "open prs", "what's open", "list pulse", "board". Do NOT trigger for creating issues (use /draft-issue), working on issues (use /workon), or session status (use /where-we-are).
 argument-hint: "[issues | prs | board | closed | merged]"
 ---
 

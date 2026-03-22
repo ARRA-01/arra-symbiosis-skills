@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Transfer work to another Oracle — write handoff, wake target, send context. Use when user says "handover", "hand over", "pass to", "transfer to", or wants to finish their part and pass work to another Oracle. Do NOT trigger for just messaging (use /talk-to or /tell), just spawning (use /wake), or just saving context (use /forward).
+description: [arra] v0.1.0 G-SKLL | Transfer work to another Oracle — write handoff, wake target, send context. Use when user says "handover", "hand over", "pass to", "transfer to", or wants to finish their part and pass work to another Oracle. Do NOT trigger for just messaging (use /talk-to or /tell), just spawning (use /wake), or just saving context (use /forward).
 argument-hint: "<oracle-name> <instruction>"
 ---
 

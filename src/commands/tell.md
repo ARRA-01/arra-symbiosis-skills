@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Send one-way command to another Oracle via maw hey. Fire and forget — no reply expected. Use when user says "tell", "hey", "บอก", "send to", or wants to dispatch a command to another agent without waiting. Do NOT trigger for two-way messaging (use /talk-to), spawning new Oracle (use /wake), or transferring work (use /handover).
+description: [arra] v0.1.0 G-SKLL | Send one-way command to another Oracle via maw hey. Fire and forget — no reply expected. Use when user says "tell", "hey", "บอก", "send to", or wants to dispatch a command to another agent without waiting. Do NOT trigger for two-way messaging (use /talk-to), spawning new Oracle (use /wake), or transferring work (use /handover).
 argument-hint: "<oracle-name> <message>"
 ---
 

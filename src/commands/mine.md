@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Extract a specific topic from ONE session JSONL. 4 parallel subagents mine what you said, what was built, what AI did, and connections. Use when user says "mine", "mine session", "what did we do about X".
+description: [arra] v0.1.0 G-SKLL | Extract a specific topic from ONE session JSONL. 4 parallel subagents mine what you said, what was built, what AI did, and connections. Use when user says "mine", "mine session", "what did we do about X".
 argument-hint: "[session-id] <keyword>"
 ---
 

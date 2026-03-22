@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Suggest next action based on open issues, git status, handoffs, and PRs. Use when user says "whats next", "what should I do", "next", "suggest", "priorities", or at a decision point. Do NOT trigger for session orientation (use /recap), mid-session status (use /where-we-are), or retrospectives (use /rrr).
+description: [arra] v0.1.0 G-SKLL | Suggest next action based on open issues, git status, handoffs, and PRs. Use when user says "whats next", "what should I do", "next", "suggest", "priorities", or at a decision point. Do NOT trigger for session orientation (use /recap), mid-session status (use /where-we-are), or retrospectives (use /rrr).
 argument-hint: "[--issues | --pulse]"
 ---
 

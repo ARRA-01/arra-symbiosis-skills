@@ -2,6 +2,7 @@
   "name": "arra-symbiosis-skills",
   "version": "0.1.0",
   "description": "ARRA Symbiosis Skills — workflow automation, fleet communication, self-creation",
+  "skillTag": "[arra]",
   "scripts": {
     "compile": "bun scripts/compile.ts",
     "test": "bun test __tests__/",

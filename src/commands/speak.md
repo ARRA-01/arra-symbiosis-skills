@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Text-to-speech using edge-tts or macOS say. Use when user says "speak", "say", "read aloud", or wants text spoken.
+description: [arra] v0.1.0 G-SKLL | Text-to-speech using edge-tts or macOS say. Use when user says "speak", "say", "read aloud", or wants text spoken.
 argument-hint: "<text>"
 ---
 

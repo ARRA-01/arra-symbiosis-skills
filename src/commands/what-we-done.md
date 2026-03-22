@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Quick list of what got done — commits, PRs merged, issues closed. Facts only, no reflection. Use when user says "what we done", "what have we done", "what did we do", "show progress", "list accomplishments". Do NOT trigger for retrospectives (use /rrr), session orientation (use /recap), or mid-session status (use /where-we-are).
+description: [arra] v0.1.0 G-SKLL | Quick list of what got done — commits, PRs merged, issues closed. Facts only, no reflection. Use when user says "what we done", "what have we done", "what did we do", "show progress", "list accomplishments". Do NOT trigger for retrospectives (use /rrr), session orientation (use /recap), or mid-session status (use /where-we-are).
 argument-hint: "[3h | 6h | 12h | 1d | 3d]"
 ---
 

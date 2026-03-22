@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Prepare birth props for a new Oracle repo. Creates issue #1 with context (name, theme, purpose) and MCP thread. Use when mother-oracle says "birth", "prepare oracle", or wants to drop props for a new child.
+description: [arra] v0.1.0 G-SKLL | Prepare birth props for a new Oracle repo. Creates issue #1 with context (name, theme, purpose) and MCP thread. Use when mother-oracle says "birth", "prepare oracle", or wants to drop props for a new child.
 ---
 
 # /birth

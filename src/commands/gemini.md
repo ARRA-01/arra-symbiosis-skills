@@ -1,5 +1,5 @@
 ---
-description: v0.1.0 G-SKLL | Control Gemini via MQTT WebSocket. Use when user says "gemini", needs to send messages to Gemini, or control the Gemini browser tab.
+description: [arra] v0.1.0 G-SKLL | Control Gemini via MQTT WebSocket. Use when user says "gemini", needs to send messages to Gemini, or control the Gemini browser tab.
 argument-hint: "<message>"
 ---
 
