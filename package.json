@@ -1,0 +1,14 @@
+{
+  "name": "arra-symbiosis-skills",
+  "version": "0.1.0",
+  "description": "ARRA Symbiosis Skills — workflow automation, fleet communication, self-creation",
+  "scripts": {
+    "compile": "bun scripts/compile.ts",
+    "test": "bun test __tests__/",
+    "version": "bun run compile && git add src/commands"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.6",
+    "typescript": "^5.0.0"
+  }
+}
