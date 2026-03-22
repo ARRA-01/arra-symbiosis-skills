@@ -90,7 +90,7 @@ Same flow as default but use full template:
 # Session Retrospective
 
 **Session Date**: YYYY-MM-DD
-**Start/End**: HH:MM - HH:MM GMT+7
+**Start/End**: HH:MM - HH:MM (local timezone)
 **Duration**: ~X min
 **Focus**: [description]
 **Type**: [Feature | Bug Fix | Research | Refactoring]
@@ -177,4 +177,4 @@ Check CLAUDE.md for these fields. If not present, use defaults (auto memory, sta
 - AI Diary: 150+ words, vulnerability, first-person
 - Honest Feedback: 100+ words, 3 friction points
 - Oracle Sync: REQUIRED after every lesson learned
-- Time Zone: GMT+7 (Bangkok)
+- Time Zone: auto-detect from system (date "+%Z %z")

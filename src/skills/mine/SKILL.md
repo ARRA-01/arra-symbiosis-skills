@@ -173,7 +173,7 @@ After all 4 agents return, compile:
 1. **ONE JSONL file only** — never search other files, repos, or Oracle
 2. **4 parallel subagents** — each reads same file, all filter by keyword
 3. **Case-insensitive matching** — "mqtt", "MQTT", "Mqtt" all match
-4. **GMT+7 timestamps** — always convert from UTC
+4. **Local timezone timestamps** — always convert from UTC
 5. **No trace log** — output to screen only, don't write to ψ/
 6. **Show actual code** — don't just say "edited file", show what was written
 7. **Context matters** — grab messages before/after matches for context

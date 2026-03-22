@@ -44,7 +44,7 @@ Read the JSONL and extract:
 - Build chronological timeline with topic labels
 - Detect emotional moments: excitement ("cool!", "very cool!", "wow"), frustration (repeated messages, "not working"), satisfaction ("commit")
 - Map activity gaps (>15 min)
-- Convert all timestamps to GMT+7
+- Convert all timestamps to local timezone
 
 Output format:
 ```
@@ -94,7 +94,7 @@ Read the JSONL and extract:
 Output format:
 ```
 METADATA:
-  Start: YYYY-MM-DD HH:MM (GMT+7)
+  Start: YYYY-MM-DD HH:MM (local timezone)
   End: HH:MM
   Duration: Xm (X.Xh)
   Messages: N total, N human, N assistant
@@ -141,7 +141,7 @@ After all 4 agents return, compile into one report:
 ## X-Ray: Session [ID]
 
 **[First human message summary]**
-`YYYY-MM-DD HH:MM — HH:MM (GMT+7) | X.Xh | X MB | N lines`
+`YYYY-MM-DD HH:MM — HH:MM (local timezone) | X.Xh | X MB | N lines`
 
 ### Timeline
 [From Agent 1 — chronological with gaps]
@@ -168,6 +168,6 @@ After all 4 agents return, compile into one report:
 
 1. **ONE JSONL file only** — never search other files, repos, or Oracle
 2. **4 parallel subagents** — each reads the same file from different angle
-3. **GMT+7 timestamps** — always convert from UTC
+3. **Local timezone timestamps** — always convert from UTC
 4. **No trace log** — output to screen only, don't write to ψ/
 5. **Filter noise** — skip approvals (y/n), task-notifications, local-commands
