@@ -1,8 +1,6 @@
 ---
-installer: oracle-skills-cli v3.3.0-alpha.10
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
 name: create-shortcut
-description: v3.3.0-alpha.10 G-SKLL | Create, list, or remove quick skills on-the-fly. Hot-reloads instantly. Use when user says "shortcut", "create skill for me", "quick skill", "I want a /something", or describes a new command they want. Do NOT trigger for full skill development (use /alpha-feature) or profile management (use /go).
+description: Create, list, or remove quick skills on-the-fly. Hot-reloads instantly. Use when user says "shortcut", "create skill for me", "quick skill", "I want a /something", or describes a new command they want. Do NOT trigger for full skill development (use /alpha-feature) or profile management (use /go).
 argument-hint: "create <free text> | list | remove <name>"
 ---
 
