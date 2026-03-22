@@ -1,91 +1,67 @@
-# ARRA Oracle Symbiosis Skills
+# ARRA Symbiosis Skills
 
 > "The skills are alive."
 
-Skills that self-create, self-evolve, self-organize. Named how you'd say them to a friend, not how you'd name a function.
+A marketplace of Claude Code skills you can copy and use. No installer. No CLI. Just `SKILL.md` files.
 
-## The Symbiosis Principle
+## Install a skill
 
-Skills don't just serve the user — they evolve WITH the user. The system notices what you need before you ask.
+```bash
+# Pick a skill, copy it
+cp -r skills/find-root-cause ~/.claude/skills/
 
-```
-System notices you keep doing the same 3 steps
-  → Suggests: "Create a skill for this?"
-  → You approve
-  → Skill exists. Forever.
+# That's it. It's live.
 ```
 
-## Born Today
+## Skills
 
-5 skills born in one session, from natural conversation:
+| Skill | What it does |
+|-------|-------------|
+| [`/find-root-cause`](skills/find-root-cause/SKILL.md) | Trace bugs to origin, not just patch symptoms |
+| [`/read-this`](skills/read-this/SKILL.md) | Fetch + summarize any URL or file path |
+| [`/detect-this-what-changes`](skills/detect-this-what-changes/SKILL.md) | Detect project stack + show what changed |
+| [`/make-this-cool-with-a-new-angle-suggest-me`](skills/make-this-cool-with-a-new-angle-suggest-me/SKILL.md) | Creative brainstorm on current work |
+| [`/oh-i-have-new-idea`](skills/oh-i-have-new-idea/SKILL.md) | Capture ideas fast before they fade |
+| [`/go-beyond-with-this-from-our-discussion-make-it-new-more-new-perspective`](skills/go-beyond-with-this-from-our-discussion-make-it-new-more-new-perspective/SKILL.md) | Push discussions further — new perspectives, deeper layers |
 
-| Skill | Born From | Purpose |
-|-------|-----------|---------|
-| `/find-root-cause` | "I keep debugging the same way" | Trace symptoms to origin, not patch |
-| `/read-this` | "I just want to read that URL" | Fetch + summarize any URL or file |
-| `/detect-this-what-changes` | Merged from 2 separate skills | Stack detection + git diff awareness |
-| `/make-this-cool-with-a-new-angle-suggest-me` | "suggest me something fresh" | Creative brainstorm on current work |
-| `/oh-i-have-new-idea` | "I have a spark!" | Capture ideas before they fade |
+## Install all
 
-## Skill Ecology
+```bash
+cp -r skills/* ~/.claude/skills/
+```
 
-Skills aren't solo — they form chains:
+## How skills work
+
+A skill is just a `SKILL.md` file in `~/.claude/skills/<name>/`. Claude Code reads it automatically. No restart needed.
 
 ```
-/oh-i-have-new-idea          capture the spark
-        ↓
-/make-this-cool-with-a-new-angle-suggest-me    evolve it
-        ↓
-/detect-this-what-changes    understand the codebase
-        ↓
-  (build it)
-        ↓
-/find-root-cause             debug when it breaks
-        ↓
-/read-this                   read anything, anywhere
+~/.claude/skills/
+  find-root-cause/
+    SKILL.md          ← this is the entire skill
+  read-this/
+    SKILL.md
+  ...
 ```
 
 ## Naming Philosophy
 
 > `/oh-i-have-new-idea` > `/capture-idea`
 
-Skills are named how you'd say them to a friend. The name IS the trigger — make it memorable, not minimal. Human emotion over programmer convention.
+Skills are named how you'd say them to a friend. The name IS the trigger — make it memorable, not minimal.
 
-## How It Works
+## Create your own
 
-### Today (Phase 1-2) — Manual + Auto-create
-1. User types `/something` that doesn't exist
-2. AI recognizes intent instead of "Unknown command"
-3. Auto-runs `/create-shortcut` with description inferred from context
-4. Skill created + hot-reloaded + executes immediately
-
-### Tomorrow (Phase 3-4) — Passive Evolution
-1. System detects repeated workflows from session history
-2. Suggests consolidation into a skill
-3. Auto-merges overlapping skills
-4. Retires unused skills (30+ days dormant)
-
-## Metrics
-
-| Metric | Value |
-|--------|-------|
-| Skills born | 5 |
-| Session age | 1 session |
-| Birth rate | 5/session |
-| Merges | 1 (`/detect` + `/what-changes` → `/detect-this-what-changes`) |
-| Retirements | 0 |
-
-## Structure
+Type naturally in Claude Code:
 
 ```
-src/           # Core symbiosis engine
-hooks/         # Claude Code hooks for skill detection
+/create-shortcut I want a skill that checks all my PRs
 ```
 
-## Related
+Done. Skill created. Share it here by adding your `SKILL.md` to `skills/`.
 
-- [oracle-skills-cli](https://github.com/Soul-Brews-Studio/oracle-skills-cli) — skill compiler and runtime
-- [oracle-skills-cli#122](https://github.com/Soul-Brews-Studio/oracle-skills-cli/issues/122) — original vision issue
+## Origin
+
+These skills were born in one session from natural conversation. See [oracle-skills-cli#122](https://github.com/Soul-Brews-Studio/oracle-skills-cli/issues/122) for the vision.
 
 ## License
 
